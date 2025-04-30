@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: ${SPRING_R2DBC_URL:r2dbc:postgresql://ep-round-shadow-a5ylnn14.us-east-2.aws.neon.tech/db_casa?ssl=true}
+    username: ${SPRING_R2DBC_USERNAME:db_casa_owner}
+    password: ${SPRING_R2DBC_PASSWORD:1BCJTQ5OWlKo}
+
+
+
+
+    https://github.com/jonaszubietaleon/PRS_Render.git  ahora quiero subir a la ramas consumo-interno
