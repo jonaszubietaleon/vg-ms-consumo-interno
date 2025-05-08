@@ -1,0 +1,11 @@
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/VgMsCasasApplication.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/config/CorsConfig.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/controller/ConsumptionController.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/controller/HomeController.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/dto/ProductDTO.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/model/Consumption.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/model/Home.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/repository/ConsumptionRepository.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/repository/HomeRepository.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/service/ConsumptionService.java
+/workspaces/vg-ms-consumo-interno/src/main/java/pe/edu/vallegrande/vg_ms_casas/service/HomeService.java
