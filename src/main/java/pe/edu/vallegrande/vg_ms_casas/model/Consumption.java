@@ -5,9 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Transient;
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
-
 import java.time.LocalDate;
 
 @Data
@@ -15,7 +14,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Table("consumption")
 public class Consumption {
-
     @Id
     private Integer id_consumption;
 
@@ -23,13 +21,16 @@ public class Consumption {
     private LocalDate date;
 
     private Integer id_home;
+
+    // Corrección aquí
+    @Column("product_id")
+    private Long productId;
+
+    // Mantener los demás campos igual
     private String names;
     private Integer quantity;
     private Double weight;
     private Integer price;
     private Double salevalue;
     private String status;
-
-
-
 }
