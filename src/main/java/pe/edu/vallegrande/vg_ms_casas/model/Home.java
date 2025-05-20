@@ -1,6 +1,7 @@
 package pe.edu.vallegrande.vg_ms_casas.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,7 +17,9 @@ public class Home {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id_home;
+
+    @Column("id_home")
+    private Integer id;
     private String names;
     private String address;
     private String status; // "A" = Active, "I" = Inactive
